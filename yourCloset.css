@@ -1,0 +1,30 @@
+html{
+    text-align: center;
+}
+
+header, footer{
+    background-color: gray;
+}
+
+article{
+    background-color: lightgrey;
+}
+
+
+button{
+    background-color: white;
+  color: black;
+  border: 2px solid black; 
+  padding:  16px;
+  font-size: 15px;
+}
+
+.group{ /* flex box styling*/
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .item{
+      flex: 1;
+      margin: 20px;
+    }
